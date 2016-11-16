@@ -5,6 +5,7 @@ body {
 
 section {
   position: relative;
+  margin: auto;
 }
 
 div {
@@ -15,5 +16,4 @@ div {
 
 canvas {
   display: block;
-  margin: auto;
 }
