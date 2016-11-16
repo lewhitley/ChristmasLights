@@ -1,0 +1,19 @@
+body {
+  background-image: url("http://res.cloudinary.com/doepem37s/image/upload/v1479024287/Christmas%20Tree%20Game/AKGLuH.jpg");
+  text-align: center;
+}
+
+section {
+  position: relative;
+}
+
+div {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
