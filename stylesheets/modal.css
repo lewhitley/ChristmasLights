@@ -49,5 +49,5 @@
 
 .new-game:hover {
   cursor: pointer;
-  box-shadow: 3px 3px grey;
+  box-shadow: 4px 4px 5px grey;
 }
