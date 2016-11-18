@@ -14,12 +14,12 @@
       <div id='timer'></div>
       <nav>
         <div class='header-item' id="reset">Reset</div>
-        <div class='header-item' id="newGame">New Game</div>
+        <div class='header-item' id="new-game">New Game</div>
         <div class='header-item' id="about">
           <img src="http://res.cloudinary.com/doepem37s/image/upload/c_scale,h_20/v1479434932/Christmas%20Tree%20Game/info.png" />
-          <div id="myModal" class="modal">
+          <div id="about-modal" class="modal">
             <div class="modal-content">
-              <span id="close">x</span>
+              <span class='about-close' id="close">x</span>
               <p>
                 Christmas Lights is a festive puzzle game.
                 <br/>
@@ -49,6 +49,17 @@
         <canvas id='black-canvas'></canvas>
       </div>
     </section>
+    <div id="won-modal" class="modal">
+      <div class="modal-content">
+        <span class='won-close' id="close">x</span>
+        <p>
+          You won!
+          <br />
+          <br />
+          <a class='new-game'>Play Again</a>
+        </p>
+      </div>
+    </div>
     <footer>
       <div class='footer'>
         <a href='https://github.com/lewhitley'><img src='https://res.cloudinary.com/doepem37s/image/upload/c_scale,w_20/v1478130064/Spotlight/github-icon.png' /></a>
