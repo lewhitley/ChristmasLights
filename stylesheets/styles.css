@@ -1,14 +1,18 @@
 body {
+  position: relative;
   background-image: url("http://res.cloudinary.com/doepem37s/image/upload/v1479024287/Christmas%20Tree%20Game/AKGLuH.jpg");
   text-align: center;
+  font-family: 'Cabin', sans-serif;
 }
 
 section {
   position: relative;
   margin: auto;
+  height: 500px;
+  width: 900px;
 }
 
-div {
+section > div {
   position: absolute;
   left: 0;
   top: 0;
@@ -16,4 +20,65 @@ div {
 
 canvas {
   display: block;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header {
+  background-color: #000026;
+  display: flex;
+  justify-content: space-between;
+  width: 890px;
+  margin: auto;
+  color: white;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > div {
+  padding: 5px;
+  margin: 5px;
+}
+
+.header-item:hover {
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#timer {
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000026;
+  height: 34px;
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  position: relative;
+}
+
+.footer a{
+  padding: 7px;
+}
+
+.footer img {
+  height: 20px;
 }

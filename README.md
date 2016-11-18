@@ -1,15 +1,15 @@
-## Christmas Tree Game
+## Christmas Lights Game
 
 ### Background
 
-The Christmas Tree Game is a logic game where the player has to connect all of the bulbs to the electricity connecting the wires properly. Each square of the triangular grid has either a bulb or a piece of wire that can be rotated to connect it to different pieces. Once a bulb is connected to the electricity it is lit up, and once all of the bulbs are lit, the game is won.
+The Christmas Lights Game is a logic game where the player has to connect all of the bulbs to the electricity connecting the wires properly. Each square of the triangular grid has either a bulb or a piece of wire that can be rotated to connect it to different pieces. Once a bulb is connected to the electricity it is lit up, and once all of the bulbs are lit, the game is won.
 
 The basic features of this game are outlined in the **Functionality & MVP** and **Bonus Features** sections.  
 
 
 ### Functionality & MVP  
 
-With this Christmas Tree Game users will be able to:
+With this Christmas Lights Game users will be able to:
 
 - [ ] Reset the game board, choose whether to start another game when they win
 - [ ] Click on wires and bulbs to rotate them

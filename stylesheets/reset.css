@@ -1,0 +1,32 @@
+body, header, footer, h1, button, input, div, section, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style-type: none;
+}
+
+body {
+  position: relative;
+  max-width: 1340px;
+  width: 100%;
+  min-height: 580px;
+  margin: auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+input, button {
+  outline: none;
+}

@@ -1,13 +1,44 @@
 <html>
   <head>
-    <title>Jingle Balls</title>
+    <title>Christmas Lights</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/modal.css">
     <script type="application/javascript" src="lib/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <audio id='audio' src="assets/silverBells.wav"></audio>
   </head>
 
   <body>
-    <h1>Jingle Balls</h1>
-    <section>
+    <h1>Christmas Lights</h1>
+    <header>
+      <div id='timer'></div>
+      <nav>
+        <div class='header-item' id="reset">Reset</div>
+        <div class='header-item' id="newGame">New Game</div>
+        <div class='header-item' id="about">
+          <img src="http://res.cloudinary.com/doepem37s/image/upload/c_scale,h_20/v1479434932/Christmas%20Tree%20Game/info.png" />
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span id="close">x</span>
+              <p>
+                Christmas Lights is a festive puzzle game.
+                <br/>
+                <br/>
+                How to play:
+                <br/>
+                Click on the wires and bulbs to turn them in place.
+                Use the wires to connect all of the bulbs to the electricity at the base of the tree.
+                When a wire is lit, it will turn yellow; lit bulbs will light up.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class='header-item' id='music'>
+          <img src='https://res.cloudinary.com/doepem37s/image/upload/c_scale,h_20/v1479434624/Christmas%20Tree%20Game/volume.png' />
+        </div>
+      </nav>
+    </header>
+    <section class='clearfix'>
       <div>
         <canvas id='bottom-canvas'></canvas>
       </div>
@@ -18,5 +49,11 @@
         <canvas id='black-canvas'></canvas>
       </div>
     </section>
+    <footer>
+      <div class='footer'>
+        <a href='https://github.com/lewhitley'><img src='https://res.cloudinary.com/doepem37s/image/upload/c_scale,w_20/v1478130064/Spotlight/github-icon.png' /></a>
+        <a href='https://www.linkedin.com/in/lewhitley2'><img src='https://res.cloudinary.com/doepem37s/image/upload/c_scale,w_20/v1478130119/Spotlight/linkedin-icon.png' /></a>
+      </div>
+    </footer>
   </body>
 </html>
