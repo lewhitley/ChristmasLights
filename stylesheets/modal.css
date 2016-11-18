@@ -20,6 +20,10 @@
    width: 80%;
 }
 
+.modal-words {
+  font-size: 30px;
+}
+
 #close {
    color: #aaa;
    float: right;
@@ -40,6 +44,7 @@
   background-color: blue;
   border-radius: 5px;
   color: white;
+  font-size: 25px;
 }
 
 .new-game:hover {
