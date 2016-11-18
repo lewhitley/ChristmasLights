@@ -35,6 +35,8 @@ updateLit(elec){
 
 At the start of the game, pieces are turned in random directions which are updated as the user clicks on different pieces. After each click, the Game checks whether all of the bulbs are lit and activates a modal when they are.
 
+![won game](docs/won.png)
+
 ### Wires and Bulbs
 
 Both of these classes inherit from the Elec class to DRY up the code. Since both of these classes have lit, position, and orientation properties, the Elec constructor handles those. Elec also takes care of rotating and reseting parent nodes for these pieces.
