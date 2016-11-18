@@ -65,3 +65,7 @@ I will need to find other puzzles to implement and possibly create other files t
 ### Add the ability for the window to record scores
 
 This will allow a user to compare their scores and see whether they are getting faster. I would need to store time data for each game in the session to render to the user.
+
+### Change timer to a countdown
+
+Gives users 3 minutes to complete the game. If the game isn't completed in the given time, a bag of coal appears and tells the player that they've lost.
