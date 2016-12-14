@@ -16,8 +16,6 @@ The basic features of this game are outlined in the **Functionality & MVP** and 
 
 Wires, bulbs, and the Christmas tree are rendered to the user with three layered HTML Canvases. The background, tree, and electrical base are drawn on the bottom canvas layer upon loading the page, allowing individual sections of the other canvases to be cleared and redrawn without changing the setting. A second canvas is used to draw the lit wires and bulbs, while the top layer shows the user the unlit wires and bulbs.
 
-![start position](docs/start.png)
-
 ### Game
 
 The user clicks on the top canvas, on which there is a click listener. From the click event, the coordinates are adjusted to match the grid of bulbs and wires and the selected wire/bulb is rotated. On each click, a Depth-First Traversal is run to find all of the lit paths on the tree before redrawing the tree again. Starting from the root, all of the children of each connected node are found with logic that checks the orientation of each of the surrounding pieces. setChildren is recursively called on all of the child wires until the leaves are reached.
@@ -35,7 +33,7 @@ updateLit(elec){
 
 At the start of the game, pieces are turned in random directions which are updated as the user clicks on different pieces. After each click, the Game checks whether all of the bulbs are lit and activates a modal when they are.
 
-![won game](docs/won.png)
+![won game](docs/christmaslights.png)
 
 ### Wires and Bulbs
 
